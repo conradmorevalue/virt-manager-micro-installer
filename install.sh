@@ -1,16 +1,3 @@
----
-title: debian13_vm_installation_systemd_github_260714001
-content_type: tech_system
-domain: technology
-author: cbk
-created: 2026-07-14
-description: ""
-tags:
-  - tech_system
----
-
-# debian13_vm_installation_github_260714002
-
 #!/bin/bash
 set -e
 
@@ -197,14 +184,6 @@ umount ${MOUNT_DIR}/sys && umount ${MOUNT_DIR}/proc && umount ${MOUNT_DIR}/dev
 umount ${MOUNT_DIR}/boot && umount ${MOUNT_DIR}
 
 echo "Success. System is secured and ready ($MODE edition). Reboot the VM."
-
-
-## Relationships
-
-GOVERNED_BY:
-
-
-DEPENDS_ON:
 
 
 REFERENCES:
