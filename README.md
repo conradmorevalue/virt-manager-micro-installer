@@ -1,4 +1,4 @@
-# virt-manager-micro-installer
+# virt-manager-micro-installer TEST UPDATE
 # Minimal Debian 13 "Trixie" UEFI/GPT Automated Installer
 
 This repository contains two production-grade shell scripts to automate the deployment of an ultra-lean, micro-footprint Debian 13 "Trixie" virtual machine inside **Virtual Machine Manager (virt-manager / KVM)**. 
