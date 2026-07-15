@@ -35,20 +35,20 @@ sudo su
 
 ### Step 1: Download the Script
 ```bash
-curl -O https://raw.githubusercontent.com/USER/REPO/main/install.sh
+curl -O https://raw.githubusercontent.com/conradmorevalue/virt-manager-micro-installer/main/install.sh
 ```
 
 ### Step 2: Run the Installation
-Run **one** of the choices below. Replace `YOUR_USERNAME` with your actual GitHub username.
+Run **one** of the choices below.
 
 #### Choice A: Bare-Minimum Pristine Base
 ```bash
-bash install.sh YOUR_USERNAME base
+bash install.sh conradmorevalue base
 ```
 
 #### Choice B: Hardened Docker Host
 ```bash
-bash install.sh YOUR_USERNAME docker
+bash install.sh conradmorevalue docker
 ```
 
 ---
